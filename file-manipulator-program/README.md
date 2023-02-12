@@ -43,7 +43,7 @@ file manipulator program
 ## replace-stringコマンド
 
 ```bash
-❯ python3 main.py replace-string testfile test "application"
+❯ python3 main.py replace-string testfile program "application"
 ❯ cat testfile
 
 file manipulator application
