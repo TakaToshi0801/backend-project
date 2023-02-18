@@ -1,6 +1,6 @@
 ## udp-server.py
 ```bash
-python3 udp-server.py 
+> python3 udp-server.py
 starting up on /home/test/mydir/recursion/Local-Chat-Messenger/UDP-Socket/udp_socket_file
 
 waiting to receive message...
@@ -11,9 +11,9 @@ sent 14 bytes back to /home/test/mydir/recursion/Local-Chat-Messenger/UDP-Socket
 waiting to receive message...
 ```
 
-```bash
 ## udp-client.py
-python3 udp-client.py HelloWorld!
+```bash
+> python3 udp-client.py HelloWorld!
 sending b'HelloWorld!'
 waiting to receive...
 received b'Pamela Manning'
