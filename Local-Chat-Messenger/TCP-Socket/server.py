@@ -2,7 +2,6 @@ import socket
 import os
 from faker import Faker
 
-# TCP/IPソケットの作成
 sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
 
 server_address = '/home/test/mydir/recursion/Local-Chat-Messenger/TCP-Socket/socket_file'
