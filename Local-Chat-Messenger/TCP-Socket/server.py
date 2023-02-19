@@ -4,7 +4,7 @@ from faker import Faker
 
 sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
 
-server_address = '/home/test/mydir/recursion/Local-Chat-Messenger/TCP-Socket/socket_file'
+server_address = './socket_file'
 
 try:
     os.unlink(server_address)

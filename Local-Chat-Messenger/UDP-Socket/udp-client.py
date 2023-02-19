@@ -3,8 +3,8 @@ import sys
 
 sock = socket.socket(socket.AF_UNIX, socket.SOCK_DGRAM)
 
-server_address = '/home/test/mydir/recursion/Local-Chat-Messenger/UDP-Socket/udp_socket_file'
-address = '/home/test/mydir/recursion/Local-Chat-Messenger/UDP-Socket/udp_client_socket_file'
+server_address = './udp_socket_file'
+address = './udp_client_socket_file'
 message = sys.argv[1].encode('utf-8')
 
 sock.bind(address)
